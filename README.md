@@ -13,7 +13,10 @@ Cards from 1 through 7 have their number value.
 The cards with the numbers 8 and 9 are not used in the game. 
 Cards with the numbers 10 through 12 have value "0" if there is another card of the same suit in hand, and otherwise their value equals "0".
 
-So, for example:
+So, for example, the function "puntaje" is expected to return these values:
+
+                  puntaje (num1, palo1, num2, palo2, num3, palo3)
+
 
 parameters: (7, "swords", 6, "swords", 1, "swords")
 
