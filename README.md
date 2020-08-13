@@ -11,7 +11,7 @@ The value of the cards are as follows:
 
 Cards from 1 through 7 have their number value. 
 The cards with the numbers 8 and 9 are not used in the game. 
-Cards with the numbers 10 through 12 have value "0" if there is another card of the same suit in hand, and otherwise their value equals "0".
+Cards with the numbers 10 through 12 have value "0".
 
 So, for example, the function "puntaje" is expected to return these values:
 
@@ -36,6 +36,11 @@ should return: 24
 
 parameters: (10, "golds", 12, "swords", 7, "cups")
 
-should return: 12
+should return: 7
+
+parameters: (10, "golds", 12, "golds", 7, "cups")
+
+should return: 20
+
 
 And that it is for now :)
